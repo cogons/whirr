@@ -1,0 +1,21 @@
+-:
+  path: "~"
+  extension: md
+  executor: file-generator
+lc:
+  path: /Users/M/Piece.localized/Leetcode
+  extension: js
+  executor: file-generator
+lc/arr:
+  path: /Users/M/Piece.localized/Leetcode/Array
+  extension: js
+  executor: file-generator
+  openWith: code
+lc/tree:
+  path: /Users/M/Piece.localized/Leetcode/Tree
+  extension: js
+  executor: file-generator
+  openWith: code
+git:
+  executor: git-cloner
+  path: /Users/M/Playground.localized/

@@ -1,0 +1,35 @@
+{
+  "name": "whirr",
+  "version": "0.0.0",
+  "description": "A file generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "whirr": "bin/whirr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cogons/whirr.git"
+  },
+  "keywords": [
+    "file",
+    "generator"
+  ],
+  "author": "Cogons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cogons/whirr/issues"
+  },
+  "homepage": "https://github.com/cogons/whirr#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "fs-extra": "^4.0.2",
+    "js-yaml": "^3.10.0",
+    "minimist": "^1.2.0",
+    "node-clipboard": "^1.2.0",
+    "underscore": "^1.8.3",
+    "untildify": "^3.0.2"
+  }
+}
